@@ -1,0 +1,5 @@
+product_id,sku,product_name,category,active
+1001,SKU-RED-TSHIRT,Red T-Shirt,apparel,1
+1002,SKU-BLUE-MUG,Blue Coffee Mug,kitchen,1
+1003,SKU-WHITE-NOTE,Notebook,stationery,1
+1004,SKU-BLK-HOOD,Black Hoodie,apparel,0

@@ -1,0 +1,13 @@
+customer_id,full_name,email,phone,created_at,status
+1,Alice Johnson,alice@example.com,555-1111,2024-01-05,active
+2,Bob Smith,bob@example.com,555-2222,2024-02-12,active
+3,Catherine Green,cat@example.com,555-3333,2024-03-18,inactive
+4,David Brown,david@example.com,555-4444,2024-03-21,active
+5,Emily Davis,emily@example.com,555-5555,2024-04-02,active
+6,Frank Moore,frank@example.com,555-6666,2024-04-15,active
+7,Grace Lee,grace@example.com,555-7777,2024-04-28,active
+8,Henry King,henry@example.com,555-8888,2024-05-06,inactive
+9,Irene Chen,irene@example.com,555-9999,2024-05-18,active
+10,Jack Wilson,jack@example.com,555-1010,2024-06-01,active
+11,Karen Taylor,karen@example.com,555-1112,2024-06-09,inactive
+12,Leo Martinez,leo@example.com,555-1212,2024-06-22,active
