@@ -4,53 +4,6 @@
   padding:0;
   text-align: initial;
 }
-/* Theme variables: DARK mode default, LIGHT override */
-:root {
-  --bg: #1e1e1e;
-  --text: #d4d4d4;
-  --header-bg: #252526;
-  --header-text: #d4d4d4;
-  --footer-bg: #252526;
-  --footer-text: #d4d4d4;
-  --sidebar-bg: #2d2d2d;
-  --panel-bg: #252526;
-  --border-color: #3f3f46;
-  --input-bg: #3c3c3c;
-  --input-border: #5a5a5a;
-  --button-bg: #0a84ff;
-  --button-hover-bg: #0066cc;
-  --button-text: #ffffff;
-  --error-bg: #5c1a1a;
-  --error-border: #933333;
-  --error-text: #fca5a5;
-  --table-header-bg: #3c3c3c;
-  --table-row-hover: #383838;
-  --highlight: #444444;
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #f7f9fb;
-    --text: #1d1f21;
-    --header-bg: #14213d;
-    --header-text: #ffffff;
-    --footer-bg: #14213d;
-    --footer-text: #ffffff;
-    --sidebar-bg: #ffffff;
-    --panel-bg: #fafbfc;
-    --border-color: #d0d7de;
-    --input-bg: #ffffff;
-    --input-border: #cbd5e1;
-    --button-bg: #1d4ed8;
-    --button-hover-bg: #1e40af;
-    --button-text: #ffffff;
-    --error-bg: #fff5f5;
-    --error-border: #fecaca;
-    --error-text: #b91c1c;
-    --table-header-bg: #f1f5f9;
-    --table-row-hover: #fef9c3;
-    --highlight: #fff3c4;
-  }
-}
 
 .logo {
   height: 6em;
@@ -152,4 +105,48 @@ tbody tr:hover { background:#fef9c3; }
 
 .read-the-docs {
   color: #888;
+}
+
+/* Dark mode colors only (no layout changes) */
+@media (prefers-color-scheme: dark) {
+  .app-container { color:#e5e7eb; background:#0b1220; }
+  .app-header { background:#0b1020; color:#e5e7eb; }
+  .app-footer { background:#0b1020; color:#e5e7eb; }
+
+  /* Panels */
+  .sidebar { background:#0f172a; border-right:1px solid #334155; }
+  .main-panel { background:#0b1220; }
+  .editor-section { border-bottom:1px solid #334155; }
+  .result-section { color:#e5e7eb; }
+  .schema-section { background:#0b1220; border-left:1px solid #334155; }
+
+  /* Sidebar content */
+  .challenge-list li.active button,
+  .challenge-list li button:hover { background:#0b2942; border-color:#1e40af; }
+  .challenge-details h3 { color:#e5e7eb; }
+  .challenge-details p { color:#cbd5e1; }
+  .challenge-status.pass { background:#064e3b; color:#d1fae5; }
+  .challenge-status.fail { background:#7f1d1d; color:#fecaca; }
+
+  /* Editor */
+  .sql-editor { border:1px solid #334155; background:#0b182a; color:#e5e7eb; }
+  .error-box { background:#3a1f1f; border:1px solid #7f1d1d; color:#fecaca; }
+
+  /* Tables */
+  .result-table-wrapper { border:1px solid #334155; background:#0f172a; }
+  .data-explorer { border:1px solid #334155; background:#0f172a; }
+  .collapse-toggle { background:#111827; border-bottom:1px solid #334155; color:#e5e7eb; }
+  .explorer-table-wrapper { border:1px solid #334155; }
+  .explorer-table-wrapper table { color:#e5e7eb; }
+  .hl-row { background:#3a2e12 !important; }
+
+  table { color:#e5e7eb; background:transparent; }
+  th, td { border:1px solid #374151; }
+  th { background:#111827; color:#e5e7eb; }
+  tbody tr:hover { background:#1f2937; }
+
+  /* Schema */
+  .schema-block h3 { color:#e5e7eb; }
+  .schema-table th, .schema-table td { background:#0f172a; }
+  .placeholder { color:#94a3b8; }
 }
