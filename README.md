@@ -1,3 +1,7 @@
+
+Try now:
+https://renanbazinin.github.io/sql-playground/
+
 ## SQL Practice Playground
 
 In-browser interactive SQL learning environment (React + Vite + sql.js). No backend required: the entire database is an in-memory SQLite instance compiled to WebAssembly.
