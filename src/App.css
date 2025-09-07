@@ -4,51 +4,51 @@
   padding:0;
   text-align: initial;
 }
-/* Theme variables for light and dark modes */
+/* Theme variables: DARK mode default, LIGHT override */
 :root {
-  --bg: #f7f9fb;
-  --text: #1d1f21;
-  --header-bg: #14213d;
-  --header-text: #ffffff;
-  --footer-bg: #14213d;
-  --footer-text: #ffffff;
-  --sidebar-bg: #ffffff;
-  --panel-bg: #fafbfc;
-  --border-color: #d0d7de;
-  --input-bg: #ffffff;
-  --input-border: #cbd5e1;
-  --button-bg: #1d4ed8;
-  --button-hover-bg: #1e40af;
+  --bg: #1e1e1e;
+  --text: #d4d4d4;
+  --header-bg: #252526;
+  --header-text: #d4d4d4;
+  --footer-bg: #252526;
+  --footer-text: #d4d4d4;
+  --sidebar-bg: #2d2d2d;
+  --panel-bg: #252526;
+  --border-color: #3f3f46;
+  --input-bg: #3c3c3c;
+  --input-border: #5a5a5a;
+  --button-bg: #0a84ff;
+  --button-hover-bg: #0066cc;
   --button-text: #ffffff;
-  --error-bg: #fff5f5;
-  --error-border: #fecaca;
-  --error-text: #b91c1c;
-  --table-header-bg: #f1f5f9;
-  --table-row-hover: #fef9c3;
-  --highlight: #fff3c4;
+  --error-bg: #5c1a1a;
+  --error-border: #933333;
+  --error-text: #fca5a5;
+  --table-header-bg: #3c3c3c;
+  --table-row-hover: #383838;
+  --highlight: #444444;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --bg: #1e1e1e;
-    --text: #d4d4d4;
-    --header-bg: #252526;
-    --header-text: #d4d4d4;
-    --footer-bg: #252526;
-    --footer-text: #d4d4d4;
-    --sidebar-bg: #2d2d2d;
-    --panel-bg: #252526;
-    --border-color: #3f3f46;
-    --input-bg: #3c3c3c;
-    --input-border: #5a5a5a;
-    --button-bg: #0a84ff;
-    --button-hover-bg: #0066cc;
+    --bg: #f7f9fb;
+    --text: #1d1f21;
+    --header-bg: #14213d;
+    --header-text: #ffffff;
+    --footer-bg: #14213d;
+    --footer-text: #ffffff;
+    --sidebar-bg: #ffffff;
+    --panel-bg: #fafbfc;
+    --border-color: #d0d7de;
+    --input-bg: #ffffff;
+    --input-border: #cbd5e1;
+    --button-bg: #1d4ed8;
+    --button-hover-bg: #1e40af;
     --button-text: #ffffff;
-    --error-bg: #5c1a1a;
-    --error-border: #933333;
-    --error-text: #fca5a5;
-    --table-header-bg: #3c3c3c;
-    --table-row-hover: #383838;
-    --highlight: #444444;
+    --error-bg: #fff5f5;
+    --error-border: #fecaca;
+    --error-text: #b91c1c;
+    --table-header-bg: #f1f5f9;
+    --table-row-hover: #fef9c3;
+    --highlight: #fff3c4;
   }
 }
 
